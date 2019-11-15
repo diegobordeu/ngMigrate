@@ -1,0 +1,14 @@
+{
+  "resolve": {
+    "@jspm/core": "npm:@jspm/core@1.0.4",
+    "angular": "npm:angular@1.7.8"
+  },
+  "dependencies": {
+    "npm:@jspm/core@1.0.4": {
+      "source": "https://registry.npmjs.org/@jspm/core/-/core-1.0.4.tgz#sha512-HoA6n4sjAEzU3BnGQpaTPXN0tFbzTe6sGHeuF4Yr9ULsheCwnHrBFOawqK4JDWxCEZQRyuqJv0tgNHTP5eLDMw=="
+    },
+    "npm:angular@1.7.8": {
+      "source": "https://registry.npmjs.org/angular/-/angular-1.7.8.tgz#sha512-wtef/y4COxM7ZVhddd7JtAAhyYObq9YXKar9tsW7558BImeVYteJiTxCKeJOL45lJ/+7B4wrAC49j8gTFYEthg=="
+    }
+  }
+}

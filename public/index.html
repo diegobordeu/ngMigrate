@@ -2,15 +2,18 @@
 <html lang="en">
   <head>
     <base href="/">
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.js"></script> -->
     <!-- <script src="app/ajs-ng-app/app.module.js"></script> -->
   </head>
 
-  <body ng-app="heroApp" ng-strict-di>
+  <body ng-app="heroApp">
     <div id="message" ng-controller="MainCtrl as mainCtrl">
       {{ mainCtrl.message }}
       {{ mainCtrl.test }}
     </div>
+
+    <ts-test id="herma"></ts-test>
   </body>
-  <script src="/js/angularApp.js"></script>
+  <!-- <script src="/js/angularApp.js"></script> -->
+  <script src="/dist/bundle.js"></script>
 </html>
